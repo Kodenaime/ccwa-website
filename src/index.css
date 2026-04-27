@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #2E7D4F;
+  --color-secondary: #D4860A;
+  --color-bg: #FAFAF7;
+  --color-text: #2C2C2C;
+  --color-teal: #3A9EAD;
+  --color-error: #C0392B;
+
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+
+  --transition-base: all 0.3s ease;
+}
+
+@theme {
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-bg: var(--color-bg);
+  --color-text: var(--color-text);
+  --color-teal: var(--color-teal);
+  --color-error: var(--color-error);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+}
+
+/* Base CSS Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
