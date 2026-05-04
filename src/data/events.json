@@ -1,0 +1,444 @@
+{
+  "events": [
+    {
+      "id": "evt-001",
+      "title": "CCWA Annual Convention & Exhibition of Widows Craft",
+      "date": "",
+      "location": "",
+      "category": "Convention",
+      "image": "/events/evt-001/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-001/img2.jpg", "/events/evt-001/img3.jpg", "/events/evt-001/img4.jpg"]
+    },
+    {
+      "id": "evt-002",
+      "title": "CCWA North West 2 2021 Coordinators Training/Annual Thanksgiving",
+      "date": "2021",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-002/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-002/img2.jpg", "/events/evt-002/img3.jpg", "/events/evt-002/img4.jpg"]
+    },
+    {
+      "id": "evt-003",
+      "title": "CCWA FCT District Coordinators Training 2021 Annual Thanksgiving",
+      "date": "2021",
+      "location": "FCT, Abuja",
+      "category": "Training",
+      "image": "/events/evt-003/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-003/img2.jpg", "/events/evt-003/img3.jpg", "/events/evt-003/img4.jpg"]
+    },
+    {
+      "id": "evt-004",
+      "title": "CCWA North West 2 Zonal Coordinators Training 2021 Annual Thanksgiving",
+      "date": "2021",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-004/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-004/img2.jpg", "/events/evt-004/img3.jpg", "/events/evt-004/img4.jpg"]
+    },
+    {
+      "id": "evt-005",
+      "title": "CCWA North Central Zonal Coordinators Training 2021 Annual Thanksgiving",
+      "date": "2021",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-005/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-005/img2.jpg", "/events/evt-005/img3.jpg", "/events/evt-005/img4.jpg"]
+    },
+    {
+      "id": "evt-006",
+      "title": "God's Children Christmas Camp (GCC)",
+      "date": "",
+      "location": "",
+      "category": "Christmas Camp",
+      "image": "/events/evt-006/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-006/img2.jpg", "/events/evt-006/img3.jpg", "/events/evt-006/img4.jpg"]
+    },
+    {
+      "id": "evt-007",
+      "title": "CCWA South South Zonal Coordinators Training 2021 Annual Thanksgiving and God's Children Christmas Camp (GCC)",
+      "date": "2021",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-007/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-007/img2.jpg", "/events/evt-007/img3.jpg", "/events/evt-007/img4.jpg"]
+    },
+    {
+      "id": "evt-008",
+      "title": "CCWA South West Zonal Coordinators Training and 2019 Annual Thanksgiving",
+      "date": "2019",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-008/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-008/img2.jpg", "/events/evt-008/img3.jpg", "/events/evt-008/img4.jpg"]
+    },
+    {
+      "id": "evt-009",
+      "title": "North East Zonal Coordinators Training and 2019 Annual Thanksgiving",
+      "date": "2019",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-009/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-009/img2.jpg", "/events/evt-009/img3.jpg", "/events/evt-009/img4.jpg"]
+    },
+    {
+      "id": "evt-010",
+      "title": "CCWA FCT District Coordinators Training and 2019 Annual Thanksgiving",
+      "date": "2019",
+      "location": "FCT, Abuja",
+      "category": "Training",
+      "image": "/events/evt-010/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-010/img2.jpg", "/events/evt-010/img3.jpg", "/events/evt-010/img4.jpg"]
+    },
+    {
+      "id": "evt-011",
+      "title": "CCWA South West Coordinators Training and 2019 Annual Thanksgiving",
+      "date": "2019",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-011/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-011/img2.jpg", "/events/evt-011/img3.jpg", "/events/evt-011/img4.jpg"]
+    },
+    {
+      "id": "evt-012",
+      "title": "North Central Coordinators Training and 2019 Annual Thanksgiving",
+      "date": "2019",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-012/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-012/img2.jpg", "/events/evt-012/img3.jpg", "/events/evt-012/img4.jpg"]
+    },
+    {
+      "id": "evt-013",
+      "title": "North West 4 Coordinators Training and 2019 Annual Thanksgiving",
+      "date": "2019",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-013/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-013/img2.jpg", "/events/evt-013/img3.jpg", "/events/evt-013/img4.jpg"]
+    },
+    {
+      "id": "evt-014",
+      "title": "CCWA Carried out Medical Evaluation for Orphans, Widows and the Aged for over 2,000 members across the country",
+      "date": "",
+      "location": "",
+      "category": "Outreach",
+      "image": "/events/evt-014/img1.jpg",
+      "excerpt": "Medical evaluation for orphans, widows and the aged for over 2,000 members across the country.",
+      "images": ["/events/evt-014/img2.jpg", "/events/evt-014/img3.jpg", "/events/evt-014/img4.jpg"]
+    },
+    {
+      "id": "evt-015",
+      "title": "CCWA Distribution of Clothing to Orphans, Survivors and Distribute Gift package to Orphans",
+      "date": "",
+      "location": "",
+      "category": "Outreach",
+      "image": "/events/evt-015/img1.jpg",
+      "excerpt": "Distribution of clothing to orphans, survivors and gift packages.",
+      "images": ["/events/evt-015/img2.jpg", "/events/evt-015/img3.jpg", "/events/evt-015/img4.jpg"]
+    },
+    {
+      "id": "evt-016",
+      "title": "CCWA God's Children Christmas Camp (GCC) 2021",
+      "date": "2021",
+      "location": "",
+      "category": "Christmas Camp",
+      "image": "/events/evt-016/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-016/img2.jpg", "/events/evt-016/img3.jpg", "/events/evt-016/img4.jpg"]
+    },
+    {
+      "id": "evt-017",
+      "title": "CCWA Activities of Widows During COVID",
+      "date": "",
+      "location": "",
+      "category": "Outreach",
+      "image": "/events/evt-017/img1.jpg",
+      "excerpt": "Activities carried out for widows during the COVID-19 pandemic.",
+      "images": ["/events/evt-017/img2.jpg", "/events/evt-017/img3.jpg", "/events/evt-017/img4.jpg"]
+    },
+    {
+      "id": "evt-018",
+      "title": "CCWA Commitment: A total of 810 Widows in FCT",
+      "date": "",
+      "location": "FCT, Abuja",
+      "category": "Outreach",
+      "image": "/events/evt-018/img1.jpg",
+      "excerpt": "A commitment to 810 widows in the FCT.",
+      "images": ["/events/evt-018/img2.jpg", "/events/evt-018/img3.jpg", "/events/evt-018/img4.jpg"]
+    },
+    {
+      "id": "evt-019",
+      "title": "CCWA Disbursement of Scholarships to CCWA Wards (Orphans) in Federal State",
+      "date": "",
+      "location": "",
+      "category": "Scholarships",
+      "image": "/events/evt-019/img1.jpg",
+      "excerpt": "Disbursement of scholarships to CCWA wards and orphans in federal state.",
+      "images": ["/events/evt-019/img2.jpg", "/events/evt-019/img3.jpg", "/events/evt-019/img4.jpg"]
+    },
+    {
+      "id": "evt-020",
+      "title": "CCWA Resource Building Projects",
+      "date": "",
+      "location": "",
+      "category": "Projects",
+      "image": "/events/evt-020/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-020/img2.jpg", "/events/evt-020/img3.jpg", "/events/evt-020/img4.jpg"]
+    },
+    {
+      "id": "evt-021",
+      "title": "CCWA Ambassadors Training during NCCF 2nd Annual Thanksgiving in Abuja",
+      "date": "",
+      "location": "Abuja",
+      "category": "Training",
+      "image": "/events/evt-021/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-021/img2.jpg", "/events/evt-021/img3.jpg", "/events/evt-021/img4.jpg"]
+    },
+    {
+      "id": "evt-022",
+      "title": "CCWA District Coordinators Training in Abuja FCT",
+      "date": "",
+      "location": "Abuja, FCT",
+      "category": "Training",
+      "image": "/events/evt-022/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-022/img2.jpg", "/events/evt-022/img3.jpg", "/events/evt-022/img4.jpg"]
+    },
+    {
+      "id": "evt-023",
+      "title": "CCWA 2023 Coordinators Training",
+      "date": "2023",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-023/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-023/img2.jpg", "/events/evt-023/img3.jpg", "/events/evt-023/img4.jpg"]
+    },
+    {
+      "id": "evt-024",
+      "title": "God's Children Christmas Camp (GCC) 2022",
+      "date": "2022",
+      "location": "",
+      "category": "Christmas Camp",
+      "image": "/events/evt-024/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-024/img2.jpg", "/events/evt-024/img3.jpg", "/events/evt-024/img4.jpg"]
+    },
+    {
+      "id": "evt-025",
+      "title": "CCWA North West Zonal Annual Thanksgiving Held in Chiwa Methodist Church Kafanchan Kaduna State 2022",
+      "date": "2022",
+      "location": "Kafanchan, Kaduna",
+      "category": "Thanksgiving",
+      "image": "/events/evt-025/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-025/img2.jpg", "/events/evt-025/img3.jpg", "/events/evt-025/img4.jpg"]
+    },
+    {
+      "id": "evt-026",
+      "title": "CCWA 2023 National Districts Coordinators Training",
+      "date": "2023",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-026/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-026/img2.jpg", "/events/evt-026/img3.jpg", "/events/evt-026/img4.jpg"]
+    },
+    {
+      "id": "evt-027",
+      "title": "CCWA God's Children Christmas Camp (GCC) 2022",
+      "date": "2022",
+      "location": "",
+      "category": "Christmas Camp",
+      "image": "/events/evt-027/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-027/img2.jpg", "/events/evt-027/img3.jpg", "/events/evt-027/img4.jpg"]
+    },
+    {
+      "id": "evt-028",
+      "title": "CCWA Durova, Polo, Kubinkar, Pantangan Districts and CCWA Kafur Centre Inauguration / Visit in 2021",
+      "date": "2021",
+      "location": "",
+      "category": "Convention",
+      "image": "/events/evt-028/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-028/img2.jpg", "/events/evt-028/img3.jpg", "/events/evt-028/img4.jpg"]
+    },
+    {
+      "id": "evt-029",
+      "title": "Bible Study in Communion with CCWA 2021 Self Supervision Training and Skill Acquisition Programme at various Districts across Nigerian States",
+      "date": "2021",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-029/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-029/img2.jpg", "/events/evt-029/img3.jpg", "/events/evt-029/img4.jpg"]
+    },
+    {
+      "id": "evt-030",
+      "title": "CCWA Coordinators Training, God's Children Christmas Camp (GCC) 2021",
+      "date": "2021",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-030/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-030/img2.jpg", "/events/evt-030/img3.jpg", "/events/evt-030/img4.jpg"]
+    },
+    {
+      "id": "evt-031",
+      "title": "God's Children Christmas Camp (GCC) 2021",
+      "date": "2021",
+      "location": "",
+      "category": "Christmas Camp",
+      "image": "/events/evt-031/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-031/img2.jpg", "/events/evt-031/img3.jpg", "/events/evt-031/img4.jpg"]
+    },
+    {
+      "id": "evt-032",
+      "title": "CCWA North West Annual Thanksgiving 2019",
+      "date": "2019",
+      "location": "",
+      "category": "Thanksgiving",
+      "image": "/events/evt-032/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-032/img2.jpg", "/events/evt-032/img3.jpg", "/events/evt-032/img4.jpg"]
+    },
+    {
+      "id": "evt-033",
+      "title": "CCWA FCT District Annual Thanksgiving 2019",
+      "date": "2019",
+      "location": "FCT, Abuja",
+      "category": "Thanksgiving",
+      "image": "/events/evt-033/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-033/img2.jpg", "/events/evt-033/img3.jpg", "/events/evt-033/img4.jpg"]
+    },
+    {
+      "id": "evt-034",
+      "title": "CCWA Annual Convention 2018",
+      "date": "2018",
+      "location": "",
+      "category": "Convention",
+      "image": "/events/evt-034/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-034/img2.jpg", "/events/evt-034/img3.jpg", "/events/evt-034/img4.jpg"]
+    },
+    {
+      "id": "evt-035",
+      "title": "CCWA 30th Anniversary Publication 2021",
+      "date": "2021",
+      "location": "",
+      "category": "Convention",
+      "image": "/events/evt-035/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-035/img2.jpg", "/events/evt-035/img3.jpg", "/events/evt-035/img4.jpg"]
+    },
+    {
+      "id": "evt-036",
+      "title": "CCWA Large and Room Coordinators Training 2019",
+      "date": "2019",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-036/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-036/img2.jpg", "/events/evt-036/img3.jpg", "/events/evt-036/img4.jpg"]
+    },
+    {
+      "id": "evt-037",
+      "title": "CCWA Manana, Fararu, Marafan (N) District and CCWA Medical Outreach 2019",
+      "date": "2019",
+      "location": "",
+      "category": "Outreach",
+      "image": "/events/evt-037/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-037/img2.jpg", "/events/evt-037/img3.jpg", "/events/evt-037/img4.jpg"]
+    },
+    {
+      "id": "evt-038",
+      "title": "Event 2014",
+      "date": "2014",
+      "location": "",
+      "category": "Convention",
+      "image": "/events/evt-038/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-038/img2.jpg", "/events/evt-038/img3.jpg", "/events/evt-038/img4.jpg"]
+    },
+    {
+      "id": "evt-039",
+      "title": "Event 2013",
+      "date": "2013",
+      "location": "",
+      "category": "Convention",
+      "image": "/events/evt-039/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-039/img2.jpg", "/events/evt-039/img3.jpg", "/events/evt-039/img4.jpg"]
+    },
+    {
+      "id": "evt-040",
+      "title": "Scholarship Award",
+      "date": "",
+      "location": "",
+      "category": "Scholarships",
+      "image": "/events/evt-040/img1.jpg",
+      "excerpt": "Scholarship Award — Presentation of Scholarship Awards at CCWA Resource Development and Education (CRDE) at the Zonal and District Level.",
+      "images": ["/events/evt-040/img2.jpg", "/events/evt-040/img3.jpg", "/events/evt-040/img4.jpg"]
+    },
+    {
+      "id": "evt-041",
+      "title": "CCWA COVID-19 — Condolences",
+      "date": "",
+      "location": "",
+      "category": "Outreach",
+      "image": "/events/evt-041/img1.jpg",
+      "excerpt": "CCWA condolences and activities during the COVID-19 pandemic.",
+      "images": ["/events/evt-041/img2.jpg", "/events/evt-041/img3.jpg", "/events/evt-041/img4.jpg"]
+    },
+    {
+      "id": "evt-042",
+      "title": "CCWA 2017 Annual Coordinators",
+      "date": "2017",
+      "location": "",
+      "category": "Training",
+      "image": "/events/evt-042/img1.jpg",
+      "excerpt": "",
+      "images": ["/events/evt-042/img2.jpg", "/events/evt-042/img3.jpg", "/events/evt-042/img4.jpg"]
+    },
+    {
+      "id": "evt-043",
+      "title": "Sharing CCWA True Joy — Come Reach Out to the Neglected in the Village",
+      "date": "",
+      "location": "",
+      "category": "Outreach",
+      "image": "/events/evt-043/img1.jpg",
+      "excerpt": "Sharing the true joy of CCWA by reaching out to the neglected in villages.",
+      "images": ["/events/evt-043/img2.jpg", "/events/evt-043/img3.jpg", "/events/evt-043/img4.jpg"]
+    },
+    {
+      "id": "evt-044",
+      "title": "CCWA FCT District Coordinators Training / 2025 Annual Thanksgiving",
+      "date": "2025-06-26T09:00:00Z",
+      "location": "The Apostolic Church Gwagwalada, FCT, Abuja",
+      "category": "Training",
+      "image": "/events/evt-044/img1.jpg",
+      "excerpt": "CCWA FCT District Coordinators Training / 2025 Annual Thanksgiving.",
+      "images": ["/events/evt-044/img2.jpg", "/events/evt-044/img3.jpg", "/events/evt-044/img4.jpg"]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { NavLink, Link } from 'react-router';
+import eventsData from '../data/events.json';
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -14,11 +15,9 @@ export const Footer: React.FC = () => {
     { name: 'Contact', path: '/contact' },
   ];
 
-  const fakeEvents = [
-    { title: 'Annual General Meeting', date: 'Oct 15, 2026' },
-    { title: 'Widows Empowerment Seminar', date: 'Nov 02, 2026' },
-    { title: 'Orphanage Christmas Visit', date: 'Dec 20, 2026' },
-  ];
+  const latestEvents = [...eventsData.events]
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 3);
 
   return (
     <footer className="bg-text text-bg py-12 md:py-16 mt-auto">
@@ -27,11 +26,8 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 mb-12">
           {/* Col 1: Brand */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-primary rounded flex items-center justify-center text-bg font-display font-bold">
-                C
-              </div>
-              <span className="font-display font-bold text-xl">CCWA</span>
+            <div>
+                <img src="/logo.png" alt="CCWA Logo" className="w-20 h-20" />
             </div>
             <p className="font-display italic text-secondary">
               "Love one another"
@@ -62,10 +58,14 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="font-display font-bold text-lg mb-4 text-primary">Latest Events</h3>
             <ul className="space-y-3">
-              {fakeEvents.map((event, index) => (
-                <li key={index} className="text-sm">
-                  <span className="block opacity-80">{event.title}</span>
-                  <span className="block text-xs text-secondary mt-0.5">{event.date}</span>
+              {latestEvents.map((event) => (
+                <li key={event.id} className="text-sm group">
+                  <Link to="/events" className="block opacity-80 group-hover:opacity-100 group-hover:text-secondary transition-colors line-clamp-1">
+                    {event.title}
+                  </Link>
+                  <span className="block text-xs text-secondary mt-0.5">
+                    {new Date(event.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                  </span>
                 </li>
               ))}
             </ul>

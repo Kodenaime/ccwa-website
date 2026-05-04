@@ -1,0 +1,28 @@
+{
+  "activities": [
+    {
+      "id": "act-001",
+      "title": "Weekly Bible Study",
+      "image": "/assets/events/evt-placeholder.jpg",
+      "body": "Spiritual growth and fellowship for all members"
+    },
+    {
+      "id": "act-002",
+      "title": "Counselling Sessions",
+      "image": "/assets/events/evt-placeholder.jpg",
+      "body": "Compassionate guidance through difficult times"
+    },
+    {
+      "id": "act-003",
+      "title": "Founder's Scholarships",
+      "image": "/assets/events/evt-placeholder.jpg",
+      "body": "Education support for orphans and fatherless children"
+    },
+    {
+      "id": "act-004",
+      "title": "Skill Acquisition",
+      "image": "/assets/events/evt-placeholder.jpg",
+      "body": "Empowering members with vocational training"
+    }
+  ]
+}

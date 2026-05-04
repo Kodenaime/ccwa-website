@@ -9,6 +9,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- GA4 Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=%VITE_GA4_MEASUREMENT_ID%"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '%VITE_GA4_MEASUREMENT_ID%');
+    </script>
+
+    <!-- Organization JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "CCWA International",
+      "url": "https://www.ccwaintl.org",
+      "logo": "https://www.ccwaintl.org/logo.png",
+      "description": "Christian Care for Widows, Widowers, the Aged and Orphans. Demonstrating the love of God across Nigeria.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "No.3 Church Crescent Opposite Rano Oil & Gas, beside The Apostolic Church Nyanya-Karshi Road",
+        "addressLocality": "Abuja",
+        "addressCountry": "NG"
+      },
+      "telephone": "+234-817-541-7583",
+      "sameAs": [
+        "https://www.facebook.com/ccwainternational",
+        "https://www.instagram.com/ccwainternational",
+        "https://www.youtube.com/ccwainternational",
+        "https://twitter.com/ccwainternational"
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

@@ -47,12 +47,9 @@ export const Navbar: React.FC = () => {
           {/* Logo */}
           <NavLink to="/" className="flex items-center gap-2">
             {/* Placeholder for Logo until real PNG is available */}
-            <div className="w-10 h-10 bg-primary rounded-md flex items-center justify-center text-bg font-display font-bold text-xl">
-              C
+            <div>
+                <img src="/logo.png" alt="CCWA Logo" className="w-20 h-20" />
             </div>
-            <span className="font-display font-bold text-xl text-primary hidden sm:block">
-              CCWA
-            </span>
           </NavLink>
 
           {/* Desktop Nav */}

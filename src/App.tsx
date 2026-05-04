@@ -11,6 +11,7 @@ import { Sponsorship } from './pages/Sponsorship'
 import { Contact } from './pages/Contact'
 import { Privacy } from './pages/Privacy'
 import { Terms } from './pages/Terms'
+import { BackToTop } from './components/BackToTop'
 
 const App: React.FC = () => {
   return (    
@@ -30,6 +31,7 @@ const App: React.FC = () => {
           </Routes>
         </main>
         <Footer />
+        <BackToTop />
       </div>
   )
 }
