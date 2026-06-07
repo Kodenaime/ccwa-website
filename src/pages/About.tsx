@@ -46,11 +46,11 @@ export const About: React.FC = () => {
           >
             <span className="text-secondary font-bold tracking-widest uppercase text-sm mb-6 block">Our Mission</span>
             <div className="relative">
-              <span className="absolute -top-10 -left-6 md:-left-12 text-8xl text-primary/10 font-display font-bold">"</span>
-              <h2 className="font-display font-bold text-2xl md:text-4xl text-primary leading-tight md:leading-snug">
-                To demonstrate the love of God by providing holistic care and support to widows, widowers, the aged, and orphans across Nigeria and beyond.
+              <span className="absolute -top-10 -left-6 md:-left-12 text-8xl text-primary font-display font-bold">"</span>
+              <h2 className="font-display font-bold text-2xl md:text-3xl text-primary leading-tight md:leading-snug">
+                To minister God’s love to widows, widowers, the aged & orphans spiritually, physically, emotionally & socially. CCWA helps widows, widowers, the aged & orphans to help themselves!
               </h2>
-              <span className="absolute -bottom-16 -right-6 md:-right-12 text-8xl text-primary/10 font-display font-bold rotate-180">"</span>
+              <span className="absolute -bottom-16 -right-6 md:-right-12 text-8xl text-primary font-display font-bold rotate-180">"</span>
             </div>
           </motion.div>
         </div>
@@ -70,7 +70,7 @@ export const About: React.FC = () => {
               <h2 className="font-display font-bold text-3xl md:text-4xl text-primary mb-6">Our Vision</h2>
               <div className="w-16 h-1 bg-secondary mb-6 rounded-full"></div>
               <p className="font-body text-lg md:text-xl text-text opacity-90 leading-relaxed">
-                A Nigeria where every widow, orphan, and aged person lives with dignity, love, and the knowledge of God's care.
+                To love and assist widows, widowers, the Aged and Orphans to be all that they can be and do in life.
               </p>
             </motion.div>
             <motion.div 
@@ -84,9 +84,9 @@ export const About: React.FC = () => {
               <div className="aspect-video bg-gray-200 rounded-2xl overflow-hidden relative shadow-lg">
                 <div className="absolute inset-0 bg-primary/20"></div>
                 <img 
-                  src="https://placehold.co/800x600/3A9EAD/FAFAF7?text=Vision" 
+                  src="/vision.jpg" 
                   alt="Our Vision" 
-                  className="w-full h-full object-cover mix-blend-overlay"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </motion.div>
@@ -106,7 +106,7 @@ export const About: React.FC = () => {
             "Love one another"
           </h2>
           <p className="font-body font-medium text-lg md:text-xl opacity-90">
-            &mdash; John 13:34
+            &mdash; (John 13:34-35)
           </p>
         </motion.div>
       </section>
@@ -124,13 +124,13 @@ export const About: React.FC = () => {
             <h2 className="font-display font-bold text-3xl md:text-4xl text-primary mb-8">Our Story</h2>
             <div className="space-y-6 font-body text-text opacity-90 leading-relaxed text-lg">
               <p>
-                Christian Care for Widows, Widowers, the Aged and Orphans (CCWA) was founded in 1991 out of a deep calling to address the silent suffering of the most vulnerable members of our society. What began as a small fellowship of compassionate individuals has blossomed into a formidable force for good.
+                The Founder’s personal experience and observations of the heartaches, suffering and the loneliness of widows, widowers the aged and orphans in the university environment of Zaria and Jos Plateau state Nigeria where she lecture for several years and the Jos community where she grew up, that struck her that something has to be done. She began to care for this category of people privately for about 20years before CCWA was born.
               </p>
               <p>
-                Over the decades, our organization has grown exponentially. From offering basic food items and emotional support in a single community, CCWA now operates across multiple states in Nigeria. We have established comprehensive programs ranging from vocational training and scholarships to medical outreach and faith clinics.
+                Founded in 1991, the lord showed her quite clearly from the scriptures that He dearly loves and cares for these people (Isaiah 61:1-3, Deuteronomy 14:28-29), and that they need to live contented and fulfilling lives while on earth. He does not want loneliness and depression to be part of their lives (1Timothy 5:3). This gave birth to Christian Care for Widows, widowers, the Aged and Orphans (CCWA). It was inaugurated in September 1992 at Hill Station Hotel by the then Governor of Plateau State Nigeria.
               </p>
               <p>
-                Today, CCWA stands as a testament to what collective compassion can achieve. We continue to expand our reach, ensuring that thousands of widows, orphans, and elderly individuals not only survive, but thrive with dignity, hope, and the unwavering assurance of God's love.
+                What started as a modest beginning in Jos has spread to more than 679 centres with over 89,883 members in 28 Districts spread across the 28 States of Nigeria and the FCT Abuja.
               </p>
             </div>
           </motion.div>

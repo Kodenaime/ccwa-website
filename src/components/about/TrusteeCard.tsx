@@ -26,7 +26,7 @@ export const TrusteeCard: React.FC<TrusteeProps> = ({ trustee, index }) => {
     >
       <div className="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-2xl bg-gray-200">
         <img 
-          src={`https://placehold.co/400x400/2E7D4F/FAFAF7?text=${encodeURIComponent(trustee.name.split(' ').map(n => n[0]).join(''))}`} 
+          src={trustee.photo}   
           alt={`${trustee.title} ${trustee.name}`} 
           className="w-full h-full object-cover"
         />

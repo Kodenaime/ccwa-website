@@ -5,12 +5,13 @@ import activitiesData from '../../data/activities.json';
 
 interface ActivityCardProps {
   title: string;
+  image: string;
   description: string;
   link: string;
   index: number;
 }
 
-const ActivityCard: React.FC<ActivityCardProps> = ({ title, description, link, index }) => {
+const ActivityCard: React.FC<ActivityCardProps> = ({ title, image, description, link, index }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -19,8 +20,8 @@ const ActivityCard: React.FC<ActivityCardProps> = ({ title, description, link, i
       transition={{ duration: 0.5, delay: index * 0.15 }}
       className="bg-bg border border-primary/10 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col"
     >
-      <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary text-2xl mb-4">
-        ✨
+      <div className="w-full h-48 bg-primary/10 rounded-full flex items-center justify-center text-primary text-2xl mb-4">
+        <img src={image} alt={title} />
       </div>
       <h3 className="font-display font-bold text-xl text-primary mb-3">{title}</h3>
       <p className="font-body text-text opacity-80 mb-6 grow">{description}</p>
@@ -45,6 +46,7 @@ export const WhatWeDoSection: React.FC = () => {
             <ActivityCard
               key={activity.id}
               title={activity.title}
+              image={activity.image}
               description={activity.body}
               link="/activities"
               index={index}
