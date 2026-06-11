@@ -17,6 +17,15 @@ export const About: React.FC = () => {
       
       {/* 1. PAGE HERO BANNER */}
       <section className="relative w-full h-[40vh] min-h-[300px] flex items-center justify-center bg-primary overflow-hidden">
+        {/* Background Image Overlay */}
+        <div className="absolute inset-0">
+          <img 
+            src="/page.jpg" 
+            alt="Page Header Background" 
+            className="w-full h-full object-cover opacity-25"
+          />
+          <div className="absolute inset-0 bg-primary/50 mix-blend-multiply"></div>
+        </div>
         {/* Subtle pattern or overlay */}
         <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,var(--tw-gradient-stops))] from-white to-transparent"></div>
         <div className="relative z-10 text-center text-bg px-4">

@@ -25,7 +25,7 @@ export const GalleryTeaserSection: React.FC = () => {
               className="aspect-square md:aspect-4/3 overflow-hidden rounded-xl relative group cursor-pointer"
             >
               <img 
-                src={`https://placehold.co/800x600/3A9EAD/FAFAF7?text=${encodeURIComponent(photo.category)}`}
+                src={photo.src}
                 alt={photo.alt}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />

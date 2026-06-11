@@ -8,7 +8,33 @@
       "category": "Convention",
       "image": "/events/evt-001/img1.jpg",
       "excerpt": "",
-      "images": ["/events/evt-001/img2.jpg", "/events/evt-001/img3.jpeg", "/events/evt-001/img4.jpg"]
+      "images": [
+        "/events/evt-001/img2.jpg",
+        "/events/evt-001/img3.jpeg",
+        "/events/evt-001/img4.jpg",
+        "/events/evt-001/img5.jpg",
+        "/events/evt-001/img6.jpg",
+        "/events/evt-001/img7.jpg",
+        "/events/evt-001/img8.jpg",
+        "/events/evt-001/img9.jpg",
+        "/events/evt-001/img10.jpg",
+        "/events/evt-001/img11.jpg",
+        "/events/evt-001/img12.jpg",
+        "/events/evt-001/img13.jpg",
+        "/events/evt-001/img14.jpg",
+        "/events/evt-001/img15.jpg",
+        "/events/evt-001/img16.jpg",
+        "/events/evt-001/img17.jpg",
+        "/events/evt-001/img18.jpg",
+        "/events/evt-001/img19.jpg",
+        "/events/evt-001/img20.jpg",
+        "/events/evt-001/img21.jpg",
+        "/events/evt-001/img22.jpg",
+        "/events/evt-001/img23.jpg",
+        "/events/evt-001/img24.jpg",
+        "/events/evt-001/img25.jpg",
+        "/events/evt-001/img26.jpg"
+      ]
     },
     {
       "id": "evt-002",
@@ -16,9 +42,19 @@
       "date": "2021",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-002/img1.jpg",
+      "image": "/events/evt-002/pic1.jpeg",
       "excerpt": "",
-      "images": ["/events/evt-002/img2.jpg", "/events/evt-002/img3.jpg", "/events/evt-002/img4.jpg"]
+      "images": [
+        "/events/evt-002/pic2.jpeg",
+        "/events/evt-002/pic3.jpeg",
+        "/events/evt-002/pic4.jpeg",
+        "/events/evt-002/pic5.jpeg",
+        "/events/evt-002/pic6.jpeg",
+        "/events/evt-002/pic7.jpeg",
+        "/events/evt-002/pic8.jpeg",
+        "/events/evt-002/pic9.jpeg",
+        "/events/evt-002/pic10.jpeg"
+      ]
     },
     {
       "id": "evt-003",
@@ -26,9 +62,24 @@
       "date": "2021",
       "location": "FCT, Abuja",
       "category": "Training",
-      "image": "/events/evt-003/img1.jpg",
+      "image": "/events/evt-003/25fdct.jpg",
       "excerpt": "",
-      "images": ["/events/evt-003/img2.jpg", "/events/evt-003/img3.jpg", "/events/evt-003/img4.jpg"]
+      "images": [
+        "/events/evt-003/25fdct2.jpg",
+        "/events/evt-003/25fdct3.jpg",
+        "/events/evt-003/25fdct4.jpg",
+        "/events/evt-003/25fdct5.jpg",
+        "/events/evt-003/25fdct6.jpg",
+        "/events/evt-003/25fdct7.jpg",
+        "/events/evt-003/25fdct8.jpg",
+        "/events/evt-003/25fdct9.jpg",
+        "/events/evt-003/25fdct10.jpg",
+        "/events/evt-003/25fdct11.jpg",
+        "/events/evt-003/25fdct12.jpg",
+        "/events/evt-003/25fdct13.jpg",
+        "/events/evt-003/25fdct14.jpg",
+        "/events/evt-003/25fdct15.jpg"
+      ]
     },
     {
       "id": "evt-004",
@@ -36,9 +87,38 @@
       "date": "2021",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-004/img1.jpg",
+      "image": "/events/evt-004/25nwzct.jpg",
       "excerpt": "",
-      "images": ["/events/evt-004/img2.jpg", "/events/evt-004/img3.jpg", "/events/evt-004/img4.jpg"]
+      "images": [
+        "/events/evt-004/25nwzct2.jpg",
+        "/events/evt-004/25nwzct3.jpg",
+        "/events/evt-004/25nwzct4.jpg",
+        "/events/evt-004/25nwzct5.jpg",
+        "/events/evt-004/25nwzct6.jpg",
+        "/events/evt-004/25nwzct7.jpg",
+        "/events/evt-004/25nwzct8.jpg",
+        "/events/evt-004/25nwzct9.jpg",
+        "/events/evt-004/25nwzct10.jpg",
+        "/events/evt-004/25nwzct11.jpg",
+        "/events/evt-004/25nwzct12.jpg",
+        "/events/evt-004/25nwzct13.jpg",
+        "/events/evt-004/25nwzct14.jpg",
+        "/events/evt-004/25nwzct15.jpg",
+        "/events/evt-004/25nwzct16.jpg",
+        "/events/evt-004/25nwzct17.jpg",
+        "/events/evt-004/25nwzct18.jpg",
+        "/events/evt-004/25nwzct19.jpg",
+        "/events/evt-004/25nwzct20.jpg",
+        "/events/evt-004/25nwzct21.jpg",
+        "/events/evt-004/25nwzct22.jpg",
+        "/events/evt-004/25nwzct23.jpg",
+        "/events/evt-004/25nwzct24.jpg",
+        "/events/evt-004/25nwzct25.jpg",
+        "/events/evt-004/25nwzct26.jpg",
+        "/events/evt-004/25nwzct27.jpg",
+        "/events/evt-004/25nwzct28.jpg",
+        "/events/evt-004/25nwzct29.jpg"
+      ]
     },
     {
       "id": "evt-005",
@@ -46,9 +126,24 @@
       "date": "2021",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-005/img1.jpg",
+      "image": "/events/evt-005/25nczct.jpg",
       "excerpt": "",
-      "images": ["/events/evt-005/img2.jpg", "/events/evt-005/img3.jpg", "/events/evt-005/img4.jpg"]
+      "images": [
+        "/events/evt-005/25nczct2.jpg",
+        "/events/evt-005/25nczct3.jpg",
+        "/events/evt-005/25nczct4.jpg",
+        "/events/evt-005/25nczct5.jpg",
+        "/events/evt-005/25nczct6.jpg",
+        "/events/evt-005/25nczct7.jpg",
+        "/events/evt-005/25nczct8.jpg",
+        "/events/evt-005/25nczct9.jpg",
+        "/events/evt-005/25nczct10.jpg",
+        "/events/evt-005/25nczct11.jpg",
+        "/events/evt-005/25nczct12.jpg",
+        "/events/evt-005/25nczct13.jpg",
+        "/events/evt-005/25nczct14.jpg",
+        "/events/evt-005/25nczct15.jpg"
+      ]
     },
     {
       "id": "evt-006",
@@ -56,9 +151,17 @@
       "date": "",
       "location": "",
       "category": "Christmas Camp",
-      "image": "/events/evt-006/img1.jpg",
+      "image": "/events/evt-006/gcc241.jpg",
       "excerpt": "",
-      "images": ["/events/evt-006/img2.jpg", "/events/evt-006/img3.jpg", "/events/evt-006/img4.jpg"]
+      "images": [
+        "/events/evt-006/gcc242.jpg",
+        "/events/evt-006/gcc243.jpg",
+        "/events/evt-006/gcc244.jpg",
+        "/events/evt-006/gcc245.jpg",
+        "/events/evt-006/gcc246.jpg",
+        "/events/evt-006/gcc247.jpg",
+        "/events/evt-006/gcc248.jpg"
+      ]
     },
     {
       "id": "evt-007",
@@ -66,9 +169,28 @@
       "date": "2021",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-007/img1.jpg",
+      "image": "/events/evt-007/sszctd1.jpg",
       "excerpt": "",
-      "images": ["/events/evt-007/img2.jpg", "/events/evt-007/img3.jpg", "/events/evt-007/img4.jpg"]
+      "images": [
+        "/events/evt-007/sszctd2.jpg",
+        "/events/evt-007/sszctd3.jpg",
+        "/events/evt-007/sszctd4.jpg",
+        "/events/evt-007/sszctd5.jpg",
+        "/events/evt-007/sszctd6.jpg",
+        "/events/evt-007/sszctd7.jpg",
+        "/events/evt-007/sszctd8.jpg",
+        "/events/evt-007/sszctd9.jpg",
+        "/events/evt-007/sszctd10.jpg",
+        "/events/evt-007/sszctd11.jpg",
+        "/events/evt-007/sszctd12.jpg",
+        "/events/evt-007/sszctd13.jpg",
+        "/events/evt-007/sszctd14.jpg",
+        "/events/evt-007/sszctd15.jpg",
+        "/events/evt-007/sszctd16.jpg",
+        "/events/evt-007/sszctd17.jpg",
+        "/events/evt-007/sszctd18.jpg",
+        "/events/evt-007/sszctd19.jpg"
+      ]
     },
     {
       "id": "evt-008",
@@ -76,9 +198,15 @@
       "date": "2019",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-008/img1.jpg",
+      "image": "/events/evt-008/nwzctat.jpg",
       "excerpt": "",
-      "images": ["/events/evt-008/img2.jpg", "/events/evt-008/img3.jpg", "/events/evt-008/img4.jpg"]
+      "images": [
+        "/events/evt-008/nwzctat1.jpg",
+        "/events/evt-008/nwzctat2.jpg",
+        "/events/evt-008/nwzctat3.jpg",
+        "/events/evt-008/nwzctat4.jpg",
+        "/events/evt-008/nwzctat5.jpg"
+      ]
     },
     {
       "id": "evt-009",
@@ -86,9 +214,21 @@
       "date": "2019",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-009/img1.jpg",
+      "image": "/events/evt-009/nezctat.jpg",
       "excerpt": "",
-      "images": ["/events/evt-009/img2.jpg", "/events/evt-009/img3.jpg", "/events/evt-009/img4.jpg"]
+      "images": [
+        "/events/evt-009/nezctat2.jpg",
+        "/events/evt-009/nezctat3.jpg",
+        "/events/evt-009/nezctat4.jpg",
+        "/events/evt-009/nezctat5.jpg",
+        "/events/evt-009/nezctat6.jpg",
+        "/events/evt-009/nezctat7.jpg",
+        "/events/evt-009/nezctat8.jpg",
+        "/events/evt-009/nezctat9.jpg",
+        "/events/evt-009/nezctat10.jpg",
+        "/events/evt-009/nezctat11.jpg",
+        "/events/evt-009/nezctat12.jpg"
+      ]
     },
     {
       "id": "evt-010",
@@ -96,9 +236,20 @@
       "date": "2019",
       "location": "FCT, Abuja",
       "category": "Training",
-      "image": "/events/evt-010/img1.jpg",
+      "image": "/events/evt-010/fctdct1.jpg",
       "excerpt": "",
-      "images": ["/events/evt-010/img2.jpg", "/events/evt-010/img3.jpg", "/events/evt-010/img4.jpg"]
+      "images": [
+        "/events/evt-010/fctdct2.jpg",
+        "/events/evt-010/fctdct3.jpg",
+        "/events/evt-010/fctdct4.jpg",
+        "/events/evt-010/fctdct5.jpg",
+        "/events/evt-010/fctdct6.jpg",
+        "/events/evt-010/fctdct7.jpg",
+        "/events/evt-010/fctdct8.jpg",
+        "/events/evt-010/fctdct9.jpg",
+        "/events/evt-010/fctdct10.jpg",
+        "/events/evt-010/fctdct11.jpg"
+      ]
     },
     {
       "id": "evt-011",
@@ -106,9 +257,15 @@
       "date": "2019",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-011/img1.jpg",
+      "image": "/events/evt-011/swctat1.jpg",
       "excerpt": "",
-      "images": ["/events/evt-011/img2.jpg", "/events/evt-011/img3.jpg", "/events/evt-011/img4.jpg"]
+      "images": [
+        "/events/evt-011/swctat2.jpg",
+        "/events/evt-011/swctat3.jpg",
+        "/events/evt-011/swctat4.jpg",
+        "/events/evt-011/swctat5.jpg",
+        "/events/evt-011/swctat6.jpg"
+      ]
     },
     {
       "id": "evt-012",
@@ -116,9 +273,25 @@
       "date": "2019",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-012/img1.jpg",
+      "image": "/events/evt-012/ncct.jpg",
       "excerpt": "",
-      "images": ["/events/evt-012/img2.jpg", "/events/evt-012/img3.jpg", "/events/evt-012/img4.jpg"]
+      "images": [
+        "/events/evt-012/ncct1.jpg",
+        "/events/evt-012/ncct2.jpg",
+        "/events/evt-012/ncct3.jpg",
+        "/events/evt-012/ncct4.jpg",
+        "/events/evt-012/ncct5.jpg",
+        "/events/evt-012/ncct6.jpg",
+        "/events/evt-012/ncct7.jpg",
+        "/events/evt-012/ncct8.jpg",
+        "/events/evt-012/ncct9.jpg",
+        "/events/evt-012/ncct10.jpg",
+        "/events/evt-012/ncct11.jpg",
+        "/events/evt-012/ncct12.jpg",
+        "/events/evt-012/ncct13.jpg",
+        "/events/evt-012/ncct14.jpg",
+        "/events/evt-012/ncct15.jpg"
+      ]
     },
     {
       "id": "evt-013",
@@ -126,9 +299,25 @@
       "date": "2019",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-013/img1.jpg",
+      "image": "/events/evt-013/nwct.jpg",
       "excerpt": "",
-      "images": ["/events/evt-013/img2.jpg", "/events/evt-013/img3.jpg", "/events/evt-013/img4.jpg"]
+      "images": [
+        "/events/evt-013/nwct1.jpg",
+        "/events/evt-013/nwct2.jpg",
+        "/events/evt-013/nwct3.jpg",
+        "/events/evt-013/nwct4.jpg",
+        "/events/evt-013/nwct5.jpg",
+        "/events/evt-013/nwct6.jpg",
+        "/events/evt-013/nwct7.jpg",
+        "/events/evt-013/nwct8.jpg",
+        "/events/evt-013/nwct9.jpg",
+        "/events/evt-013/nwct10.jpg",
+        "/events/evt-013/nwct11.jpg",
+        "/events/evt-013/nwct12.jpg",
+        "/events/evt-013/nwct13.jpg",
+        "/events/evt-013/nwct14.jpg",
+        "/events/evt-013/nwct15.jpg"
+      ]
     },
     {
       "id": "evt-014",
@@ -136,9 +325,11 @@
       "date": "",
       "location": "",
       "category": "Outreach",
-      "image": "/events/evt-014/img1.jpg",
+      "image": "/events/evt-014/mo1.jpg",
       "excerpt": "Medical evaluation for orphans, widows and the aged for over 2,000 members across the country.",
-      "images": ["/events/evt-014/img2.jpg", "/events/evt-014/img3.jpg", "/events/evt-014/img4.jpg"]
+      "images": [
+        "/events/evt-014/mo2.jpg"
+      ]
     },
     {
       "id": "evt-015",
@@ -146,9 +337,12 @@
       "date": "",
       "location": "",
       "category": "Outreach",
-      "image": "/events/evt-015/img1.jpg",
+      "image": "/events/evt-015/cv1.jpg",
       "excerpt": "Distribution of clothing to orphans, survivors and gift packages.",
-      "images": ["/events/evt-015/img2.jpg", "/events/evt-015/img3.jpg", "/events/evt-015/img4.jpg"]
+      "images": [
+        "/events/evt-015/cv2.jpg",
+        "/events/evt-015/cv3.jpg"
+      ]
     },
     {
       "id": "evt-016",
@@ -156,9 +350,12 @@
       "date": "2021",
       "location": "",
       "category": "Christmas Camp",
-      "image": "/events/evt-016/img1.jpg",
+      "image": "/events/evt-016/gck.jpg",
       "excerpt": "",
-      "images": ["/events/evt-016/img2.jpg", "/events/evt-016/img3.jpg", "/events/evt-016/img4.jpg"]
+      "images": [
+        "/events/evt-016/gck2.jpg",
+        "/events/evt-016/gck3.jpg"
+      ]
     },
     {
       "id": "evt-017",
@@ -166,9 +363,11 @@
       "date": "",
       "location": "",
       "category": "Outreach",
-      "image": "/events/evt-017/img1.jpg",
+      "image": "/events/evt-017/zat1.jpg",
       "excerpt": "Activities carried out for widows during the COVID-19 pandemic.",
-      "images": ["/events/evt-017/img2.jpg", "/events/evt-017/img3.jpg", "/events/evt-017/img4.jpg"]
+      "images": [
+        "/events/evt-017/zat2.jpg"
+      ]
     },
     {
       "id": "evt-018",
@@ -176,9 +375,12 @@
       "date": "",
       "location": "FCT, Abuja",
       "category": "Outreach",
-      "image": "/events/evt-018/img1.jpg",
+      "image": "/events/evt-018/out1.jpg",
       "excerpt": "A commitment to 810 widows in the FCT.",
-      "images": ["/events/evt-018/img2.jpg", "/events/evt-018/img3.jpg", "/events/evt-018/img4.jpg"]
+      "images": [
+        "/events/evt-018/out2.jpg",
+        "/events/evt-018/out3.jpg"
+      ]
     },
     {
       "id": "evt-019",
@@ -186,9 +388,12 @@
       "date": "",
       "location": "",
       "category": "Scholarships",
-      "image": "/events/evt-019/img1.jpg",
+      "image": "/events/evt-019/dss1.jpg",
       "excerpt": "Disbursement of scholarships to CCWA wards and orphans in federal state.",
-      "images": ["/events/evt-019/img2.jpg", "/events/evt-019/img3.jpg", "/events/evt-019/img4.jpg"]
+      "images": [
+        "/events/evt-019/dss2.jpg",
+        "/events/evt-019/dss3.jpg"
+      ]
     },
     {
       "id": "evt-020",
@@ -196,19 +401,24 @@
       "date": "",
       "location": "",
       "category": "Projects",
-      "image": "/events/evt-020/img1.jpg",
+      "image": "/events/evt-020/sa 1.jpg",
       "excerpt": "",
-      "images": ["/events/evt-020/img2.jpg", "/events/evt-020/img3.jpg", "/events/evt-020/img4.jpg"]
-    },
+      "images": [
+        "/events/evt-020/sa2.jpg",
+        "/events/evt-020/sa3.jpg"
+      ]
+    }
+  ],
+  "draftEvents": [
     {
       "id": "evt-021",
       "title": "CCWA Ambassadors Training during NCCF 2nd Annual Thanksgiving in Abuja",
       "date": "",
       "location": "Abuja",
       "category": "Training",
-      "image": "/events/evt-021/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-021/img2.jpg", "/events/evt-021/img3.jpg", "/events/evt-021/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-022",
@@ -216,9 +426,9 @@
       "date": "",
       "location": "Abuja, FCT",
       "category": "Training",
-      "image": "/events/evt-022/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-022/img2.jpg", "/events/evt-022/img3.jpg", "/events/evt-022/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-023",
@@ -226,9 +436,9 @@
       "date": "2023",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-023/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-023/img2.jpg", "/events/evt-023/img3.jpg", "/events/evt-023/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-024",
@@ -236,9 +446,9 @@
       "date": "2022",
       "location": "",
       "category": "Christmas Camp",
-      "image": "/events/evt-024/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-024/img2.jpg", "/events/evt-024/img3.jpg", "/events/evt-024/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-025",
@@ -246,9 +456,9 @@
       "date": "2022",
       "location": "Kafanchan, Kaduna",
       "category": "Thanksgiving",
-      "image": "/events/evt-025/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-025/img2.jpg", "/events/evt-025/img3.jpg", "/events/evt-025/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-026",
@@ -256,9 +466,9 @@
       "date": "2023",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-026/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-026/img2.jpg", "/events/evt-026/img3.jpg", "/events/evt-026/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-027",
@@ -266,9 +476,9 @@
       "date": "2022",
       "location": "",
       "category": "Christmas Camp",
-      "image": "/events/evt-027/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-027/img2.jpg", "/events/evt-027/img3.jpg", "/events/evt-027/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-028",
@@ -276,9 +486,9 @@
       "date": "2021",
       "location": "",
       "category": "Convention",
-      "image": "/events/evt-028/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-028/img2.jpg", "/events/evt-028/img3.jpg", "/events/evt-028/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-029",
@@ -286,9 +496,9 @@
       "date": "2021",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-029/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-029/img2.jpg", "/events/evt-029/img3.jpg", "/events/evt-029/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-030",
@@ -296,9 +506,9 @@
       "date": "2021",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-030/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-030/img2.jpg", "/events/evt-030/img3.jpg", "/events/evt-030/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-031",
@@ -306,9 +516,9 @@
       "date": "2021",
       "location": "",
       "category": "Christmas Camp",
-      "image": "/events/evt-031/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-031/img2.jpg", "/events/evt-031/img3.jpg", "/events/evt-031/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-032",
@@ -316,9 +526,9 @@
       "date": "2019",
       "location": "",
       "category": "Thanksgiving",
-      "image": "/events/evt-032/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-032/img2.jpg", "/events/evt-032/img3.jpg", "/events/evt-032/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-033",
@@ -326,9 +536,9 @@
       "date": "2019",
       "location": "FCT, Abuja",
       "category": "Thanksgiving",
-      "image": "/events/evt-033/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-033/img2.jpg", "/events/evt-033/img3.jpg", "/events/evt-033/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-034",
@@ -336,9 +546,9 @@
       "date": "2018",
       "location": "",
       "category": "Convention",
-      "image": "/events/evt-034/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-034/img2.jpg", "/events/evt-034/img3.jpg", "/events/evt-034/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-035",
@@ -346,9 +556,9 @@
       "date": "2021",
       "location": "",
       "category": "Convention",
-      "image": "/events/evt-035/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-035/img2.jpg", "/events/evt-035/img3.jpg", "/events/evt-035/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-036",
@@ -356,9 +566,9 @@
       "date": "2019",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-036/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-036/img2.jpg", "/events/evt-036/img3.jpg", "/events/evt-036/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-037",
@@ -366,9 +576,9 @@
       "date": "2019",
       "location": "",
       "category": "Outreach",
-      "image": "/events/evt-037/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-037/img2.jpg", "/events/evt-037/img3.jpg", "/events/evt-037/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-038",
@@ -376,9 +586,9 @@
       "date": "2014",
       "location": "",
       "category": "Convention",
-      "image": "/events/evt-038/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-038/img2.jpg", "/events/evt-038/img3.jpg", "/events/evt-038/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-039",
@@ -386,9 +596,9 @@
       "date": "2013",
       "location": "",
       "category": "Convention",
-      "image": "/events/evt-039/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-039/img2.jpg", "/events/evt-039/img3.jpg", "/events/evt-039/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-040",
@@ -396,9 +606,9 @@
       "date": "",
       "location": "",
       "category": "Scholarships",
-      "image": "/events/evt-040/img1.jpg",
+      "image": "",
       "excerpt": "Scholarship Award — Presentation of Scholarship Awards at CCWA Resource Development and Education (CRDE) at the Zonal and District Level.",
-      "images": ["/events/evt-040/img2.jpg", "/events/evt-040/img3.jpg", "/events/evt-040/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-041",
@@ -406,9 +616,9 @@
       "date": "",
       "location": "",
       "category": "Outreach",
-      "image": "/events/evt-041/img1.jpg",
+      "image": "",
       "excerpt": "CCWA condolences and activities during the COVID-19 pandemic.",
-      "images": ["/events/evt-041/img2.jpg", "/events/evt-041/img3.jpg", "/events/evt-041/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-042",
@@ -416,9 +626,9 @@
       "date": "2017",
       "location": "",
       "category": "Training",
-      "image": "/events/evt-042/img1.jpg",
+      "image": "",
       "excerpt": "",
-      "images": ["/events/evt-042/img2.jpg", "/events/evt-042/img3.jpg", "/events/evt-042/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-043",
@@ -426,9 +636,9 @@
       "date": "",
       "location": "",
       "category": "Outreach",
-      "image": "/events/evt-043/img1.jpg",
+      "image": "",
       "excerpt": "Sharing the true joy of CCWA by reaching out to the neglected in villages.",
-      "images": ["/events/evt-043/img2.jpg", "/events/evt-043/img3.jpg", "/events/evt-043/img4.jpg"]
+      "images": []
     },
     {
       "id": "evt-044",
@@ -436,9 +646,9 @@
       "date": "2025-06-26T09:00:00Z",
       "location": "The Apostolic Church Gwagwalada, FCT, Abuja",
       "category": "Training",
-      "image": "/events/evt-044/img1.jpg",
+      "image": "",
       "excerpt": "CCWA FCT District Coordinators Training / 2025 Annual Thanksgiving.",
-      "images": ["/events/evt-044/img2.jpg", "/events/evt-044/img3.jpg", "/events/evt-044/img4.jpg"]
+      "images": []
     }
   ]
 }

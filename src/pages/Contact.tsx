@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router';
+import { FileText, Download } from 'lucide-react';
 import { SEOHead } from '../components/SEOHead';
 import { ContactForm } from '../components/ContactForm';
 
@@ -16,6 +17,16 @@ export const Contact: React.FC = () => {
       
       {/* 1. PAGE HERO BANNER */}
       <section className="relative w-full h-[40vh] min-h-[300px] flex items-center justify-center bg-primary overflow-hidden">
+        {/* Background Image Overlay */}
+        <div className="absolute inset-0">
+          <img 
+            src="/page.jpg" 
+            alt="Page Header Background" 
+            className="w-full h-full object-cover opacity-25"
+          />
+          <div className="absolute inset-0 bg-primary/50 mix-blend-multiply"></div>
+        </div>
+        {/* Subtle pattern or overlay */}
         <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,var(--tw-gradient-stops))] from-white to-transparent"></div>
         <div className="relative z-10 text-center text-bg px-4">
           <motion.div
@@ -134,6 +145,110 @@ export const Contact: React.FC = () => {
               </div>
             </motion.div>
 
+          </div>
+        </div>
+      </section>
+
+      {/* 3. MEMBERSHIP FORMS SECTION */}
+      <section className="py-20 bg-gray-50 border-t border-gray-100">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.6 }}
+            className="mb-12"
+          >
+            <h2 className="font-display font-bold text-3xl md:text-4xl text-primary mb-4">
+              Membership Registration Forms
+            </h2>
+            <p className="text-text opacity-80 max-w-2xl mx-auto font-body">
+              Download and fill out our membership registration forms to join the CCWA international network. We have dedicated forms for orphans and widows.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {/* Orphans Membership Form Card */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="bg-white rounded-2xl p-8 shadow-md border border-gray-100 flex flex-col items-center hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-display font-bold text-xl text-primary mb-4">
+                Orphans Membership Form
+              </h3>
+              
+              {/* CSS PDF Illustration Card */}
+              <div className="w-full aspect-[4/3] max-w-[320px] mb-6 overflow-hidden rounded-xl border border-dashed border-primary/20 bg-primary/5 flex flex-col items-center justify-center relative group p-6">
+                <div className="w-20 h-26 bg-white rounded-lg shadow-md border border-gray-100 flex flex-col items-center justify-between p-3 relative transition-transform duration-300 group-hover:scale-105 group-hover:shadow-lg">
+                  <div className="w-full flex justify-between items-center border-b border-gray-100 pb-1 mb-1">
+                    <div className="w-6 h-1.5 bg-primary/20 rounded"></div>
+                    <div className="w-3 h-1.5 bg-gray-200 rounded"></div>
+                  </div>
+                  <FileText className="w-10 h-10 text-primary opacity-80" />
+                  <span className="text-[9px] font-bold text-white bg-red-500 px-1.5 py-0.5 rounded uppercase mt-1">
+                    PDF
+                  </span>
+                </div>
+                <div className="mt-3 text-center">
+                  <p className="font-body text-xs text-text opacity-60">Portable Document Format</p>
+                  <p className="font-body text-xs font-semibold text-primary mt-1">Size: 151 KB</p>
+                </div>
+                <div className="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
+              </div>
+
+              <a
+                href="/Orphans_Membership_Form.pdf"
+                download="Orphans_Membership_Form.pdf"
+                className="mt-auto inline-flex items-center gap-2 bg-primary hover:bg-secondary text-white font-bold py-3 px-6 rounded-full transition-colors font-body shadow-sm"
+              >
+                <Download className="w-5 h-5" />
+                Download Form (PDF)
+              </a>
+            </motion.div>
+
+            {/* Widows & Widowers Membership Form Card */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="bg-white rounded-2xl p-8 shadow-md border border-gray-100 flex flex-col items-center hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-display font-bold text-xl text-primary mb-4">
+                Widows & Widowers Membership Form
+              </h3>
+
+              {/* CSS PDF Illustration Card */}
+              <div className="w-full aspect-[4/3] max-w-[320px] mb-6 overflow-hidden rounded-xl border border-dashed border-primary/20 bg-primary/5 flex flex-col items-center justify-center relative group p-6">
+                <div className="w-20 h-26 bg-white rounded-lg shadow-md border border-gray-100 flex flex-col items-center justify-between p-3 relative transition-transform duration-300 group-hover:scale-105 group-hover:shadow-lg">
+                  <div className="w-full flex justify-between items-center border-b border-gray-100 pb-1 mb-1">
+                    <div className="w-6 h-1.5 bg-primary/20 rounded"></div>
+                    <div className="w-3 h-1.5 bg-gray-200 rounded"></div>
+                  </div>
+                  <FileText className="w-10 h-10 text-primary opacity-80" />
+                  <span className="text-[9px] font-bold text-white bg-red-500 px-1.5 py-0.5 rounded uppercase mt-1">
+                    PDF
+                  </span>
+                </div>
+                <div className="mt-3 text-center">
+                  <p className="font-body text-xs text-text opacity-60">Portable Document Format</p>
+                  <p className="font-body text-xs font-semibold text-primary mt-1">Size: 162 KB</p>
+                </div>
+                <div className="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
+              </div>
+
+              <a
+                href="/Windows-widowers_membership_form.pdf"
+                download="Windows-widowers_membership_form.pdf"
+                className="mt-auto inline-flex items-center gap-2 bg-primary hover:bg-secondary text-white font-bold py-3 px-6 rounded-full transition-colors font-body shadow-sm"
+              >
+                <Download className="w-5 h-5" />
+                Download Form (PDF)
+              </a>
+            </motion.div>
           </div>
         </div>
       </section>
