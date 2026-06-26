@@ -6,6 +6,7 @@ import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Activities } from './pages/Activities'
 import { Events } from './pages/Events'
+import { EventDetails } from './pages/EventDetails'
 import { Gallery } from './pages/Gallery'
 import { Sponsorship } from './pages/Sponsorship'
 import { Contact } from './pages/Contact'
@@ -23,6 +24,7 @@ const App: React.FC = () => {
             <Route path="/about" element={<About />} />
             <Route path="/activities" element={<Activities />} />
             <Route path="/events" element={<Events />} />
+            <Route path="/events/:eventId" element={<EventDetails />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/sponsorship" element={<Sponsorship />} />
             <Route path="/contact" element={<Contact />} />

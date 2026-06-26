@@ -75,7 +75,7 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="font-display font-bold text-lg mb-4 text-primary">Contact Us</h3>
             <address className="not-italic text-sm opacity-80 space-y-3">
-              <p>CCWA House, No. 3 Church Crescent,<br />Nyanya-Karu Road, Abuja</p>
+              <p>CCWA Headquarters: No. 3 Church Crescent<br />besides The Apostolic Church, opposite Rano Oil and Gas<br />Nyanya-Karshi Road Abuja</p>
               <p>
                 <a href="tel:+234000000000" className="hover:text-secondary">+234 (0) 000 000 0000</a>
               </p>

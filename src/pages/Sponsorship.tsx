@@ -126,7 +126,7 @@ export const Sponsorship: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-4 text-left">
                   <div>
                     <div className="text-sm opacity-70 mb-1">Bank Name</div>
-                    <div className="font-bold text-lg">Guaranty Trust Bank (GTB)</div>
+                    <div className="font-bold text-lg">Access Bank</div>
                   </div>
                   <div>
                     <div className="text-sm opacity-70 mb-1">Account Number</div>
@@ -134,7 +134,7 @@ export const Sponsorship: React.FC = () => {
                   </div>
                   <div className="md:col-span-2">
                     <div className="text-sm opacity-70 mb-1">Account Name</div>
-                    <div className="font-bold text-lg">CCWA International</div>
+                    <div className="font-bold text-lg">Christians Care for Widows Widowers the Aged and Orphans.</div>
                   </div>
                 </div>
               </div>
