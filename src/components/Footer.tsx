@@ -2,6 +2,25 @@ import React from 'react';
 import { NavLink, Link } from 'react-router';
 import eventsData from '../data/events.json';
 
+const MONTH_MAP: Record<string, number> = {
+  january: 0, february: 1, march: 2, april: 3, may: 4, june: 5,
+  july: 6, august: 7, september: 8, october: 9, november: 10, december: 11,
+};
+
+function parseEventDate(dateStr: string): number {
+  if (!dateStr) return 0;
+  const lower = dateStr.toLowerCase();
+  for (const [month, idx] of Object.entries(MONTH_MAP)) {
+    if (lower.includes(month)) {
+      const year = parseInt(lower.match(/(\d{4})/)?.[1] ?? '0');
+      const day = parseInt(lower.match(/(\d{1,2})(?:st|nd|rd|th)?\s/)?.[1] ?? '1');
+      return new Date(year, idx, day).getTime();
+    }
+  }
+  const y = parseInt(lower.match(/(\d{4})/)?.[1] ?? '0');
+  return y ? new Date(y, 0, 1).getTime() : 0;
+}
+
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
@@ -16,7 +35,7 @@ export const Footer: React.FC = () => {
   ];
 
   const latestEvents = [...eventsData.events]
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .sort((a, b) => parseEventDate(b.date) - parseEventDate(a.date))
     .slice(0, 3);
 
   return (
@@ -60,11 +79,11 @@ export const Footer: React.FC = () => {
             <ul className="space-y-3">
               {latestEvents.map((event) => (
                 <li key={event.id} className="text-sm group">
-                  <Link to="/events" className="block opacity-80 group-hover:opacity-100 group-hover:text-secondary transition-colors line-clamp-1">
+                  <Link to={`/events/${event.id}`} className="block opacity-80 group-hover:opacity-100 group-hover:text-secondary transition-colors line-clamp-1">
                     {event.title}
                   </Link>
                   <span className="block text-xs text-secondary mt-0.5">
-                    {new Date(event.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                    {event.date}
                   </span>
                 </li>
               ))}

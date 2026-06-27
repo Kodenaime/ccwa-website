@@ -43,11 +43,11 @@ export const Activities: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="font-display font-bold text-4xl md:text-5xl lg:text-6xl mb-4">Our Activities</h1>
+            <h1 className="font-display font-bold text-4xl md:text-5xl lg:text-6xl mb-4">Core Activities</h1>
             <div className="font-body text-sm md:text-base opacity-90 flex items-center justify-center gap-2">
               <Link to="/" className="hover:text-secondary transition-colors">Home</Link>
               <span>&gt;</span>
-              <span>Activities</span>
+              <span>Core Activities</span>
             </div>
           </motion.div>
         </div>
@@ -72,6 +72,20 @@ export const Activities: React.FC = () => {
             transition={{ delay: 0.3, duration: 0.6 }}
             className="w-24 h-1 bg-secondary mx-auto mt-8 rounded-full"
           />
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            className="mt-10"
+          >
+            <Link
+              to="/activities/summary"
+              className="inline-flex items-center gap-2 bg-primary text-bg px-6 py-3 rounded-full font-medium hover:opacity-90 transition-opacity"
+            >
+              View Summary of Activities &rarr;
+            </Link>
+          </motion.div>
         </div>
       </section>
 

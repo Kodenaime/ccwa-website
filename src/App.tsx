@@ -5,6 +5,8 @@ import { Footer } from './components/Footer'
 import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Activities } from './pages/Activities'
+import { ActivitiesSummary } from './pages/ActivitiesSummary'
+import { ActivityDetail } from './pages/ActivityDetail'
 import { Events } from './pages/Events'
 import { EventDetails } from './pages/EventDetails'
 import { Gallery } from './pages/Gallery'
@@ -23,6 +25,8 @@ const App: React.FC = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/activities" element={<Activities />} />
+            <Route path="/activities/summary" element={<ActivitiesSummary />} />
+            <Route path="/activities/:activityId" element={<ActivityDetail />} />
             <Route path="/events" element={<Events />} />
             <Route path="/events/:eventId" element={<EventDetails />} />
             <Route path="/gallery" element={<Gallery />} />

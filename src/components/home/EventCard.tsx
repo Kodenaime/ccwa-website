@@ -2,15 +2,19 @@ import React from 'react';
 import { Link } from 'react-router';
 import { motion } from 'framer-motion';
 
+export interface EventImage {
+  src: string;
+  description: string;
+}
+
 export interface EventType {
   id: string;
   title: string;
   date: string;
   location: string;
-  category: string;
-  image: string;
-  excerpt?: string;
-  images: string[];
+  description: string;
+  thumbnail: string;
+  images: EventImage[];
 }
 
 interface EventCardProps {
@@ -18,32 +22,19 @@ interface EventCardProps {
   index: number;
 }
 
-const getCategoryColor = (category: string): string => {
-  const lower = category.toLowerCase();
-  if (lower.includes('convention') || lower.includes('awareness'))  return 'bg-primary';
-  if (lower.includes('training')   || lower.includes('seminar'))    return 'bg-teal';
-  if (lower.includes('outreach')   || lower.includes('relief'))     return 'bg-secondary';
-  if (lower.includes('christmas'))                                   return 'bg-error';
-  if (lower.includes('scholarships'))                                return 'bg-primary';
-  if (lower.includes('thanksgiving'))                                return 'bg-teal';
-  if (lower.includes('projects'))                                    return 'bg-teal';
-  if (lower.includes('meeting'))                                     return 'bg-text';
-  return 'bg-primary';
+export const normalizeImagePath = (path: string): string => {
+  if (!path) return path;
+  return path.startsWith('/') || path.startsWith('http') ? path : `/${path}`;
 };
 
 const formatDate = (date: string): string => {
   if (!date) return 'Date TBC';
-  if (/^\d{4}$/.test(date.trim())) return date.trim();
-  const parsed = new Date(date);
-  if (isNaN(parsed.getTime())) return date;
-  return parsed.toLocaleDateString('en-GB', {
-    day: 'numeric',
-    month: 'short',
-    year: 'numeric',
-  });
+  return date;
 };
 
 export const EventCard: React.FC<EventCardProps> = ({ event, index }) => {
+  const imageCount = event.images?.length ?? 0;
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -55,14 +46,16 @@ export const EventCard: React.FC<EventCardProps> = ({ event, index }) => {
       {/* Preview image */}
       <Link to={`/events/${event.id}`} className="block h-48 w-full bg-gray-200 relative overflow-hidden group">
         <img
-          src={event.image || `https://placehold.co/600x400/2E7D4F/FAFAF7?text=${encodeURIComponent(event.category)}`}
+          src={normalizeImagePath(event.thumbnail) || '/page.jpg'}
           alt={event.title}
           loading="lazy"
           className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
         />
-        <div className={`absolute top-4 left-4 text-bg text-xs font-bold px-3 py-1 rounded-full ${getCategoryColor(event.category)}`}>
-          {event.category}
-        </div>
+        {imageCount > 0 && (
+          <div className="absolute bottom-3 right-3 bg-black/55 text-white text-xs font-semibold px-2 py-1 rounded-full flex items-center gap-1">
+            🖼 {imageCount}
+          </div>
+        )}
       </Link>
 
       {/* Card body */}
@@ -80,10 +73,10 @@ export const EventCard: React.FC<EventCardProps> = ({ event, index }) => {
           {event.title}
         </h3>
 
-        {/* Excerpt */}
-        {event.excerpt && (
-          <p className="font-body text-sm text-text opacity-80 mb-4 leading-relaxed">
-            {event.excerpt}
+        {/* Description */}
+        {event.description && (
+          <p className="font-body text-sm text-text opacity-80 mb-4 leading-relaxed line-clamp-3">
+            {event.description}
           </p>
         )}
 

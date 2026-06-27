@@ -2,19 +2,8 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, Link } from 'react-router';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SEOHead } from '../components/SEOHead';
+import { normalizeImagePath } from '../components/home/EventCard';
 import eventsData from '../data/events.json';
-
-const formatDate = (date: string): string => {
-  if (!date) return 'Date TBC';
-  if (/^\d{4}$/.test(date.trim())) return date.trim();
-  const parsed = new Date(date);
-  if (isNaN(parsed.getTime())) return date;
-  return parsed.toLocaleDateString('en-GB', {
-    day: 'numeric',
-    month: 'short',
-    year: 'numeric',
-  });
-};
 
 export const EventDetails: React.FC = () => {
   const { eventId } = useParams<{ eventId: string }>();
@@ -26,7 +15,7 @@ export const EventDetails: React.FC = () => {
   );
 
   const allImages = useMemo(
-    () => [event?.image, ...(event?.images ?? [])].filter(Boolean) as string[],
+    () => event?.images?.filter(img => img.src) ?? [],
     [event]
   );
 
@@ -64,14 +53,14 @@ export const EventDetails: React.FC = () => {
     <>
       <SEOHead
         title={`${event.title} | CCWA International`}
-        description={event.excerpt || `Photos and details from ${event.title}`}
+        description={event.description || `Photos and details from ${event.title}`}
       />
 
       {/* HERO BANNER */}
       <section className="relative w-full h-[40vh] min-h-[300px] flex items-center justify-center bg-primary overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src={event.image || '/page.jpg'}
+            src={normalizeImagePath(event.thumbnail) || '/page.jpg'}
             alt=""
             className="w-full h-full object-cover opacity-25"
           />
@@ -109,12 +98,14 @@ export const EventDetails: React.FC = () => {
             transition={{ duration: 0.5 }}
             className="flex flex-wrap items-center gap-6 mb-10 text-text opacity-70"
           >
-            <span className="flex items-center gap-2 font-body">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-              {formatDate(event.date)}
-            </span>
+            {event.date && (
+              <span className="flex items-center gap-2 font-body">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                {event.date}
+              </span>
+            )}
             {event.location && (
               <span className="flex items-center gap-2 font-body">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -124,20 +115,17 @@ export const EventDetails: React.FC = () => {
                 {event.location}
               </span>
             )}
-            <span className="inline-block bg-primary/10 text-primary text-xs font-bold px-3 py-1 rounded-full">
-              {event.category}
-            </span>
           </motion.div>
 
-          {/* Excerpt */}
-          {event.excerpt && (
+          {/* Description */}
+          {event.description && (
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
               className="font-body text-lg text-text opacity-80 max-w-3xl mb-12 leading-relaxed"
             >
-              {event.excerpt}
+              {event.description}
             </motion.p>
           )}
 
@@ -152,21 +140,26 @@ export const EventDetails: React.FC = () => {
                 Event Photos ({allImages.length})
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {allImages.map((src, i) => (
+                {allImages.map((img, i) => (
                   <motion.div
-                    key={src}
+                    key={img.src}
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.3, delay: i * 0.05 }}
                     onClick={() => openLightbox(i)}
-                    className="aspect-[4/3] overflow-hidden rounded-xl cursor-pointer bg-gray-100 group"
+                    className="aspect-[4/3] overflow-hidden rounded-xl cursor-pointer bg-gray-100 group relative"
                   >
                     <img
-                      src={src}
-                      alt={`${event.title} — photo ${i + 1}`}
+                      src={normalizeImagePath(img.src)}
+                      alt={img.description || `${event.title} — photo ${i + 1}`}
                       loading="lazy"
                       className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                     />
+                    {img.description && (
+                      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <p className="text-white text-xs leading-tight line-clamp-2">{img.description}</p>
+                      </div>
+                    )}
                   </motion.div>
                 ))}
               </div>
@@ -214,12 +207,12 @@ export const EventDetails: React.FC = () => {
               className="relative max-w-4xl w-full flex flex-col items-center gap-3"
             >
               <img
-                src={allImages[lightboxIndex]}
-                alt={`${event.title} — photo ${lightboxIndex + 1}`}
+                src={normalizeImagePath(allImages[lightboxIndex].src)}
+                alt={allImages[lightboxIndex].description || `${event.title} — photo ${lightboxIndex + 1}`}
                 className="w-full max-h-[80vh] object-contain rounded-lg"
               />
               <p className="text-white/70 font-body text-sm text-center">
-                {event.title} — {lightboxIndex + 1} / {allImages.length}
+                {allImages[lightboxIndex].description || `${event.title} — ${lightboxIndex + 1} / ${allImages.length}`}
               </p>
             </motion.div>
 

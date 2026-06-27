@@ -3,10 +3,29 @@ import { Link } from 'react-router';
 import eventsData from '../../data/events.json';
 import { EventCard } from './EventCard';
 
+const MONTH_MAP: Record<string, number> = {
+  january: 0, february: 1, march: 2, april: 3, may: 4, june: 5,
+  july: 6, august: 7, september: 8, october: 9, november: 10, december: 11,
+};
+
+function parseEventDate(dateStr: string): number {
+  if (!dateStr) return 0;
+  const lower = dateStr.toLowerCase();
+  for (const [month, idx] of Object.entries(MONTH_MAP)) {
+    if (lower.includes(month)) {
+      const year = parseInt(lower.match(/(\d{4})/)?.[1] ?? '0');
+      const day = parseInt(lower.match(/(\d{1,2})(?:st|nd|rd|th)?\s/)?.[1] ?? '1');
+      return new Date(year, idx, day).getTime();
+    }
+  }
+  const y = parseInt(lower.match(/(\d{4})/)?.[1] ?? '0');
+  return y ? new Date(y, 0, 1).getTime() : 0;
+}
+
 export const RecentEventsSection: React.FC = () => {
   // Sort by date descending and take top 3
   const sortedEvents = [...eventsData.events]
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .sort((a, b) => parseEventDate(b.date) - parseEventDate(a.date))
     .slice(0, 3);
 
   return (
