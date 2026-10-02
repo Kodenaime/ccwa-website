@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(python -c import json; d=json.load(open('src/data/events.json')); print('Valid JSON:', len(d['events']), 'events'); print('First:', d['events'][0]['id']))",
+      "Shell(npx tsc -b --noEmit 2 >& 1)",
+      "Shell(npx eslint src/pages/Home.tsx src/pages/Events.tsx src/components/ProgramDonationColumn.tsx 2 >& 1)",
+      "Shell(npm:*)"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}

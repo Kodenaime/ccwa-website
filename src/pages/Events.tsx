@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router';
 import { SEOHead } from '../components/SEOHead';
 import { EventCard } from '../components/home/EventCard';
+import { ProgramDonationColumn } from '../components/ProgramDonationColumn';
 import eventsData from '../data/events.json';
 
 const MONTH_MAP: Record<string, number> = {
@@ -116,6 +117,8 @@ export const Events: React.FC = () => {
           )}
         </div>
       </section>
+
+      <ProgramDonationColumn />
     </>
   );
 };

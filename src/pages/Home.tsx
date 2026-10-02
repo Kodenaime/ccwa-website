@@ -5,6 +5,7 @@ import { ImpactNumbers } from '../components/home/ImpactNumbers';
 import { WhatWeDoSection } from '../components/home/WhatWeDoSection';
 import { RecentEventsSection } from '../components/home/RecentEventsSection';
 import { DonationCTASection } from '../components/home/DonationCTASection';
+import { ProgramDonationColumn } from '../components/ProgramDonationColumn';
 import { GalleryTeaserSection } from '../components/home/GalleryTeaserSection';
 // import { PartnersStrip } from '../components/home/PartnersStrip';
 
@@ -19,6 +20,7 @@ export const Home: React.FC = () => {
       <ImpactNumbers />
       <WhatWeDoSection />
       <RecentEventsSection />
+      <ProgramDonationColumn />
       <DonationCTASection />
       <GalleryTeaserSection />
       {/* <PartnersStrip /> */}

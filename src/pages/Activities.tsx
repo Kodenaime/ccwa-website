@@ -25,7 +25,7 @@ export const Activities: React.FC = () => {
       />
       
       {/* 1. PAGE HERO BANNER */}
-      <section className="relative w-full h-[40vh] min-h-[300px] flex items-center justify-center bg-primary overflow-hidden">
+      <section className="relative w-full h-[40vh] min-h-75 flex items-center justify-center bg-primary overflow-hidden">
         {/* Background Image Overlay */}
         <div className="absolute inset-0">
           <img 
