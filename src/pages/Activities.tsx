@@ -14,8 +14,7 @@ const iconMap: Record<string, React.ComponentType<any>> = {
   Briefcase,
   Activity,
   Calendar
-};
-
+}; 
 export const Activities: React.FC = () => {
   return (
     <>

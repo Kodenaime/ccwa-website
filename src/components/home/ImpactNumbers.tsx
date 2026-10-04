@@ -32,9 +32,9 @@ export const ImpactNumbers: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 divide-y sm:divide-y-0 sm:divide-x divide-primary/20">
           <StatCard target={35} suffix="+" label="Years of Service" />
-          <StatCard target={10000} suffix="+" label="Lives Touched" />
+          <StatCard target={125000} suffix="+" label="Lives Touched" />
           <StatCard target={36} suffix="" label="States Reached" />
-          <StatCard target={500} suffix="+" label="Orphans Supported" />
+          <StatCard target={14000} suffix="+" label="Orphans Supported" />
         </div>
       </div>
     </section>
