@@ -1,6 +1,29 @@
 {
   "events": [
     {
+      "id": "north-west-1-thanksgiving-2026",
+      "title": "CCWA North-West 1 Zonal Coordinators Training And Annual Thanksgiving, Held On 5th-6th November, 2026, At CCWA Resource Center Garaje, Kaduna South",
+      "date": "5th - 6th November, 2026",
+      "location": "CCWA Resource Center Garaje, Kaduna South",
+      "description": "CCWA North-West 1 Zonal Coordinators Training and Annual Thanksgiving held on 5th-6th November, 2026, at CCWA Resource Center Garaje, Kaduna South, bringing together coordinators and members for training, fellowship, and thanksgiving.",
+      "thumbnail": "assets/NW-zonal-cordinators-training-2026/IMG_20261106_113037.webp",
+      "images": [
+        { "src": "assets/NW-zonal-cordinators-training-2026/IMG_20261105_131729.webp", "description": "North-West 1 Zonal Coordinators Training and Annual Thanksgiving 2026" },
+        { "src": "assets/NW-zonal-cordinators-training-2026/IMG_20261105_162344.webp", "description": "North-West 1 Zonal Coordinators Training and Annual Thanksgiving 2026" },
+        { "src": "assets/NW-zonal-cordinators-training-2026/IMG_20261105_162736.webp", "description": "North-West 1 Zonal Coordinators Training and Annual Thanksgiving 2026" },
+        { "src": "assets/NW-zonal-cordinators-training-2026/IMG_20261105_163822.webp", "description": "North-West 1 Zonal Coordinators Training and Annual Thanksgiving 2026" },
+        { "src": "assets/NW-zonal-cordinators-training-2026/IMG_20261105_164209.webp", "description": "North-West 1 Zonal Coordinators Training and Annual Thanksgiving 2026" },
+        { "src": "assets/NW-zonal-cordinators-training-2026/IMG_20261106_111207.webp", "description": "North-West 1 Zonal Coordinators Training and Annual Thanksgiving 2026" },
+        { "src": "assets/NW-zonal-cordinators-training-2026/IMG_20261106_111424.webp", "description": "North-West 1 Zonal Coordinators Training and Annual Thanksgiving 2026" },
+        { "src": "assets/NW-zonal-cordinators-training-2026/IMG_20261106_112632.webp", "description": "North-West 1 Zonal Coordinators Training and Annual Thanksgiving 2026" },
+        { "src": "assets/NW-zonal-cordinators-training-2026/IMG_20261106_112750.webp", "description": "North-West 1 Zonal Coordinators Training and Annual Thanksgiving 2026" },
+        { "src": "assets/NW-zonal-cordinators-training-2026/IMG_20261106_112824.webp", "description": "North-West 1 Zonal Coordinators Training and Annual Thanksgiving 2026" },
+        { "src": "assets/NW-zonal-cordinators-training-2026/IMG_20261106_113003.webp", "description": "North-West 1 Zonal Coordinators Training and Annual Thanksgiving 2026" },
+        { "src": "assets/NW-zonal-cordinators-training-2026/IMG_20261106_113037.webp", "description": "North-West 1 Zonal Coordinators Training and Annual Thanksgiving 2026" },
+        { "src": "assets/NW-zonal-cordinators-training-2026/IMG_20261106_114744.webp", "description": "North-West 1 Zonal Coordinators Training and Annual Thanksgiving 2026" }
+      ]
+    },
+    {
       "id": "north-east-thanksgiving-2026",
       "title": "CCWA North-East Coordinators Training And Annual Thanksgiving, Held On 8th-9th October, 2026, At GMC Macbright Jalingo, Taraba State",
       "date": "8th - 9th October, 2026",

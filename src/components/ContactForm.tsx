@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { trackEvent } from '../utils/analytics';
 
 export const ContactForm: React.FC = () => {
   const [name, setName] = useState('');
@@ -64,6 +65,7 @@ export const ContactForm: React.FC = () => {
       const result = await response.json();
       
       if (response.ok && result.success) {
+        trackEvent('contact_form_submit', { subject });
         setIsSuccess(true);
       } else {
         setSubmitError(result.message || 'Something went wrong. Please try again or email us directly at ccwahdqtrs@gmail.com.');

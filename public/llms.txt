@@ -1,0 +1,34 @@
+# CCWA International
+
+> Christians Care for Widows, Widowers, the Aged and Orphans (CCWA International) is a faith-based humanitarian non-profit organization in Nigeria dedicated to demonstrating God's love by caring for widows, widowers, the elderly, and orphans spiritually, physically, emotionally, and socially.
+
+## Quick Facts
+- **Full Name**: Christians Care for Widows, Widowers, the Aged and Orphans (CCWA International)
+- **Motto**: "Love one another"
+- **Impact**: 35+ years of service, 125,000+ lives touched, 36 states reached across Nigeria, 14,000+ orphans supported, 672+ centers across 68+ districts.
+- **Headquarters**: No. 3 Church Crescent, Opposite Rano Oil & Gas, Beside The Apostolic Church, Nyanya-Karshi Road, Abuja, Nigeria.
+- **Phone**: +234 817 541 7583, +234 706 069 3615
+- **Email**: ccwahdqtrs@gmail.com (General) | donations@ccwainternational.org (Donations & Sponsorship)
+- **Website**: https://www.ccwaintl.org
+
+## Mission & Vision
+- **Mission**: To minister God's love to widows, widowers, the aged & orphans spiritually, physically, emotionally & socially. CCWA helps widows, widowers, the aged & orphans to help themselves.
+- **Vision**: To love and assist widows, widowers, the Aged and Orphans to be all that they can be and do in life.
+
+## Seven Core Programmes
+1. **Weekly Bible Study / Seminars** (`/activities`): Spiritual growth, scriptural exploration, prayer, and fellowship.
+2. **Counselling Sessions** (`/activities`): Emotional support, trauma care, and compassionate guidance.
+3. **Founder's Scholarships Scheme** (`/activities/scholarship-scheme`): Education support for orphans and fatherless children across primary, secondary, and tertiary institutions.
+4. **Skill Acquisition Program** (`/activities/skills-acquisition`): Practical vocational training (tailoring, baking, food packaging, home gardening, tie & dye, computer literacy) for financial independence.
+5. **Small-Scale Business Loans (Aina Trust Fund)** (`/activities/aina-trust-fund`): Zero-interest micro-loans for widows and the elderly to start or expand small businesses.
+6. **Faith Clinic** (`/activities`): Intensive intercessory prayer and spiritual healing sessions.
+7. **Annual Events** (`/events`): Zonal Annual Thanksgivings, Coordinators Trainings, Career Seminars, and God's Children Christmas Camp (GCCC).
+
+## Key Pages
+- [Home](https://www.ccwaintl.org/): Overview, impact numbers, recent events, and donation CTA.
+- [About Us](https://www.ccwaintl.org/about): Mission, vision, history, and Board of Trustees.
+- [Core Activities](https://www.ccwaintl.org/activities): The 7 core recurring programmes.
+- [Summary of Activities](https://www.ccwaintl.org/activities/summary): Detailed impact reports across Nigeria.
+- [Events](https://www.ccwaintl.org/events): Past and recent zonal trainings, thanksgivings, medical outreaches, and GCCC camps.
+- [Sponsor a Child / Donate](https://www.ccwaintl.org/sponsorship): How to sponsor an orphan or support widows via online giving or bank transfer.
+- [Contact & Membership Forms](https://www.ccwaintl.org/contact): Contact form, Abuja HQ details, and downloadable PDF membership registration forms.

@@ -1,5 +1,5 @@
-import React from 'react'
-import { Routes, Route } from 'react-router'
+import React, { useEffect } from 'react'
+import { Routes, Route, useLocation } from 'react-router'
 import { Navbar } from './components/Navbar'
 import { Footer } from './components/Footer'
 import { Home } from './pages/Home'
@@ -15,8 +15,18 @@ import { Contact } from './pages/Contact'
 import { Privacy } from './pages/Privacy'
 import { Terms } from './pages/Terms'
 import { BackToTop } from './components/BackToTop'
+import { trackPageView } from './utils/analytics'
 
 const App: React.FC = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      trackPageView(location.pathname + location.search, document.title);
+    }, 50);
+    return () => window.clearTimeout(timer);
+  }, [location.pathname, location.search]);
+
   return (    
       <div className="flex flex-col min-h-screen">
         <Navbar />

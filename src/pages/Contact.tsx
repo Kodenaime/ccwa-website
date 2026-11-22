@@ -4,6 +4,7 @@ import { Link } from 'react-router';
 import { FileText, Download } from 'lucide-react';
 import { SEOHead } from '../components/SEOHead';
 import { ContactForm } from '../components/ContactForm';
+import { trackEvent } from '../utils/analytics';
 
 export const Contact: React.FC = () => {
   const mapEmbedUrl = import.meta.env.VITE_GOOGLE_MAPS_EMBED_URL;
@@ -202,6 +203,7 @@ export const Contact: React.FC = () => {
               <a
                 href="/Orphans_Membership_Form.pdf"
                 download="Orphans_Membership_Form.pdf"
+                onClick={() => trackEvent('membership_form_download', { form_type: 'orphans', file_name: 'Orphans_Membership_Form.pdf' })}
                 className="mt-auto inline-flex items-center gap-2 bg-primary hover:bg-secondary text-white font-bold py-3 px-6 rounded-full transition-colors font-body shadow-sm"
               >
                 <Download className="w-5 h-5" />
@@ -243,6 +245,7 @@ export const Contact: React.FC = () => {
               <a
                 href="/Windows-widowers_membership_form.pdf"
                 download="Windows-widowers_membership_form.pdf"
+                onClick={() => trackEvent('membership_form_download', { form_type: 'widows_widowers', file_name: 'Windows-widowers_membership_form.pdf' })}
                 className="mt-auto inline-flex items-center gap-2 bg-primary hover:bg-secondary text-white font-bold py-3 px-6 rounded-full transition-colors font-body shadow-sm"
               >
                 <Download className="w-5 h-5" />

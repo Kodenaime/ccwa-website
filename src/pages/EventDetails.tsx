@@ -49,11 +49,51 @@ export const EventDetails: React.FC = () => {
     );
   }
 
+  const eventStructuredData = event
+    ? [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'Event',
+          name: event.title,
+          description: event.description || `Photos and details from ${event.title}`,
+          image: normalizeImagePath(event.thumbnail)
+            ? `https://www.ccwaintl.org${normalizeImagePath(event.thumbnail)}`
+            : 'https://www.ccwaintl.org/page.jpg',
+          location: {
+            '@type': 'Place',
+            name: event.location || 'Nigeria',
+            address: {
+              '@type': 'PostalAddress',
+              addressCountry: 'NG',
+              addressLocality: event.location || 'Nigeria',
+            },
+          },
+          organizer: {
+            '@type': 'Organization',
+            name: 'CCWA International',
+            url: 'https://www.ccwaintl.org',
+          },
+        },
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ccwaintl.org/' },
+            { '@type': 'ListItem', position: 2, name: 'Events', item: 'https://www.ccwaintl.org/events' },
+            { '@type': 'ListItem', position: 3, name: event.title, item: `https://www.ccwaintl.org/events/${event.id}` },
+          ],
+        },
+      ]
+    : undefined;
+
   return (
     <>
       <SEOHead
         title={`${event.title} | CCWA International`}
         description={event.description || `Photos and details from ${event.title}`}
+        ogImage={normalizeImagePath(event.thumbnail) || '/page.jpg'}
+        ogType="article"
+        structuredData={eventStructuredData}
       />
 
       {/* HERO BANNER */}

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { trackEvent } from '../utils/analytics';
 
 declare global {
   interface Window {
@@ -67,15 +68,18 @@ export const DonationForm: React.FC = () => {
       currency: 'NGN',
       ref: 'CCWA_' + Math.floor(Math.random() * 1000000000 + 1),
       onClose: () => {
+        trackEvent('donation_cancelled', { amount: Number(amount), currency: 'NGN', method: 'paystack' });
         setPaymentCancelled(true);
         setIsProcessing(false);
       },
       callback: (_response: any) => {
+        trackEvent('donation_completed', { amount: Number(amount), currency: 'NGN', method: 'paystack' });
         setPaymentSuccess(true);
         setIsProcessing(false);
       }
     });
 
+    trackEvent('donation_initiated', { amount: Number(amount), currency: 'NGN', method: 'paystack' });
     handler.openIframe();
   };
 

@@ -3,42 +3,85 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CCWA International | Love One Another</title>
   <meta name="description"
-    content="Christian Care for Widows, Widowers, the Aged and Orphans. Demonstrating the love of God across Nigeria." />
+    content="Christians Care for Widows, Widowers, the Aged and Orphans (CCWA International). Demonstrating the love of God across all 36 states of Nigeria for over 35 years." />
+  <meta name="keywords"
+    content="CCWA International, Christians Care for Widows Widowers the Aged and Orphans, Nigeria charity, widow support Nigeria, orphan sponsorship Nigeria, Abuja NGO, GCCC, Aina Trust Fund" />
+  <meta name="author" content="CCWA International" />
+  <meta name="theme-color" content="#2E7D4F" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap"
     rel="stylesheet">
 
-  <!-- GA4 Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=%VITE_GA4_MEASUREMENT_ID%"></script>
+  <!-- Google Tag Manager -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', '%VITE_GA4_MEASUREMENT_ID%');
   </script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5XQ6R4C7');</script>
+  <!-- End Google Tag Manager -->
 
-  <!-- Organization JSON-LD -->
+  <!-- Organization & NGO JSON-LD (SEO / AEO / GEO) -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
+      "@type": ["Organization", "NGO"],
       "name": "CCWA International",
+      "alternateName": "Christians Care for Widows, Widowers, the Aged and Orphans",
       "url": "https://www.ccwaintl.org",
       "logo": "https://www.ccwaintl.org/logo.png",
-      "description": "Christian Care for Widows, Widowers, the Aged and Orphans. Demonstrating the love of God across Nigeria.",
+      "image": "https://www.ccwaintl.org/page.jpg",
+      "slogan": "Love one another",
+      "description": "Christians Care for Widows, Widowers, the Aged and Orphans (CCWA International) is a Nigerian humanitarian organization caring for widows, widowers, the elderly, and orphans spiritually, physically, emotionally, and socially across all 36 states and the FCT.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Nigeria"
+      },
+      "knowsAbout": [
+        "Widow Support and Empowerment",
+        "Orphan Sponsorship and Scholarships",
+        "Elderly Care",
+        "Vocational Skill Acquisition",
+        "Zero-Interest Micro-Loans",
+        "Medical Outreaches"
+      ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "No.3 Church Crescent Opposite Rano Oil & Gas, beside The Apostolic Church Nyanya-Karshi Road",
         "addressLocality": "Abuja",
+        "addressRegion": "FCT",
         "addressCountry": "NG"
       },
       "telephone": "+234-817-541-7583",
+      "email": "ccwahdqtrs@gmail.com",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+234-817-541-7583",
+          "contactType": "customer support",
+          "email": "ccwahdqtrs@gmail.com",
+          "areaServed": "NG",
+          "availableLanguage": "English"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+234-706-069-3615",
+          "contactType": "donations",
+          "email": "donations@ccwainternational.org",
+          "areaServed": "NG",
+          "availableLanguage": "English"
+        }
+      ],
       "sameAs": [
         "https://www.facebook.com/ccwainternational",
         "https://www.instagram.com/ccwainternational",
@@ -46,10 +89,26 @@
         "https://twitter.com/ccwainternational"
       ]
     }
-    </script>
+  </script>
+
+  <!-- WebSite JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "CCWA International",
+      "alternateName": "Christians Care for Widows, Widowers, the Aged and Orphans",
+      "url": "https://www.ccwaintl.org"
+    }
+  </script>
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XQ6R4C7"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
 </body>
